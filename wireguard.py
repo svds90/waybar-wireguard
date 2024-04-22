@@ -4,7 +4,7 @@ from subprocess import CompletedProcess
 import re
 import sys
 
-CONFIG_PATH = "/etc/wireguard/svin822.conf"
+CONFIG_PATH = "/etc/wireguard/_YOUR_CFG_.conf"
 WG_INTERFACE = re.search(r'/([^/]+)\.conf$', CONFIG_PATH).group(1)  # type: ignore
 
 
